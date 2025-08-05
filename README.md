@@ -27,7 +27,7 @@ Launch UiPath Studio and open the extracted project folder.
 Run the Automation
 
 Run the project.
-When prompted, enter a YouTube channel URL (e.g., https://www.youtube.com/c/NASA).
+When prompted, enter a YouTube channel URL (e.g., https://www.youtube.com/@NASA/videos).
 Let the robot do the rest!
 View Your File
 Check your desktop for a file called YouTubeVideoTitles.xlsx.
