@@ -52,7 +52,12 @@ A: No, you need UiPath Assistant or Studio installed. See details in the main do
 Q: Does it download video links, thumbnails, or dates?
 A: No, this version focuses only on extracting titles for simplicity and speed.
 
-Contact
-Have feedback or need support?
-You can contact the developer or open an issue here on GitHub.
+### Known Issue
+When opening the project, the UiPath bot may sometimes not display the global variables correctly.  
+If this happens, you need to manually add the following global variables in the **Extract** workflow:
+
+- `intA` (Type: `Int32`)
+- `intB` (Type: `Int32`)
+
+This will ensure the workflow runs without errors.
 
